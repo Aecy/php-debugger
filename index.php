@@ -117,19 +117,6 @@ class Course
     public $price = 14.99;
     public $published = true;
     public $technologies = ['TailwindCSS', 'AlpineJS', 'Livewire', 'Laravel'];
-
-    public function testing() {
-        //
-    }
-
-    protected function attributes() {
-        return [
-            'name' => $this->name,
-            'price' => $this->price,
-            'published' => $this->published,
-            'technologies' => $this->technologies
-        ];
-    }
 }
 
 $courseObject = new Course();
