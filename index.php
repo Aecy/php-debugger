@@ -57,7 +57,7 @@ function dump($data)
             z-index: 99999;
             word-break: break-word;
             padding: .4rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0.1rem;
             overflow: auto;
             max-height: 400px;
         }
@@ -99,27 +99,3 @@ function dd($data)
 
     die();
 }
-
-// Testing parts.
-
-$technologiesArray = ['TailwindCSS', 'AlpineJS','Livewire', 'Laravel'];
-$courseArray = [
-    'name' => 'TALL Stack Course',
-    'price' => 14.99,
-    'published' => true,
-    'author' => null,
-    'technologies' => $technologiesArray
-];
-
-class Course
-{
-    public $name = 'TALL Stack Course';
-    public $price = 14.99;
-    public $published = true;
-    public $technologies = ['TailwindCSS', 'AlpineJS', 'Livewire', 'Laravel'];
-}
-
-$courseObject = new Course();
-
-dump($courseArray);
-dump($courseObject);
