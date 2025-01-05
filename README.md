@@ -13,7 +13,7 @@ This PHP snippet provides a simple, elegant way to debug and display the content
 - **Syntax Highlighting:** Color-coded output for better readability.
 
 ## Installation
-> Require [PHP 5.6+](https://www.php.net/releases/)
+> **Requires [PHP 5.6+](https://www.php.net/releases/)**
 
 1. **Copy the Functions:**
    Copy the provided `highlight`, `dump`, and `dd` functions into your PHP project.
