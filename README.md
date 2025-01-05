@@ -1,4 +1,8 @@
-# PHP Debugging Snippet
+<p align="center">
+    <img src="./docs/logo.png" alt="PHPDebugger loggo" height="300">
+</p>
+
+---
 
 This PHP snippet provides a simple, elegant way to debug and display the contents of variables, arrays, and objects in a human-readable format. It highlights the data with custom styling, making it easier to analyze complex structures in your application.
 
@@ -9,6 +13,7 @@ This PHP snippet provides a simple, elegant way to debug and display the content
 - **Syntax Highlighting:** Color-coded output for better readability.
 
 ## Installation
+> Require [PHP 5.6+](https://www.php.net/releases/)
 
 1. **Copy the Functions:**
    Copy the provided `highlight`, `dump`, and `dd` functions into your PHP project.
@@ -76,5 +81,5 @@ You can adjust the styles in the `<style>` tag inside the `dump` function to mat
 
 ## License
 
-This snippet is released under the MIT License.
+PHP Debugger is an open-sourced snippet licensed under the [MIT License](https://opensource.org/license/MIT).
 

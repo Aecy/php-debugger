@@ -2,7 +2,6 @@
 
 require __DIR__ . '/../index.php';
 
-
 $technologiesArray = ['TailwindCSS', 'AlpineJS','Livewire', 'Laravel'];
 $courseArray = [
     'name' => 'TALL Stack Course',

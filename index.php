@@ -1,7 +1,5 @@
 <?php
 
-// Functions to import into your project.
-
 function highlight($data, $tab = 1)
 {
     $indent = str_repeat(' ', $tab);
@@ -29,8 +27,6 @@ function highlight($data, $tab = 1)
         $className = get_class($data);
 
         return "<span class='sf-dump-note'>$className</span> {\n$content\n$closingIndent}";
-    } elseif (is_callable($data)) {
-        return "test";
     } elseif (is_string($data)) {
         return "\"<span class='sf-dump-str'>$data</span>\"";
     } elseif (is_int($data) || is_float($data)) {
